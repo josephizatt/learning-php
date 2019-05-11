@@ -1,0 +1,7 @@
+Logic should be seperated from presentation
+
+The .html file's responsibility is to render the page
+
+PHP files usually have a different concern, i.e. to connect to a database or manipulate data
+
+It's good practice to seperate these concerns

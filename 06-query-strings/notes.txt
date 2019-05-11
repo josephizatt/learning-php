@@ -1,0 +1,5 @@
+Run a PHP server and go to http://localhost:8888/06-query-strings?name=Sausage
+
+What about http://localhost:8888/06-query-strings?name=<a href="www.google.com">Link</a>
+
+What does htmlspecialchars do?

@@ -16,6 +16,7 @@
 <body>
     <header>
         <h1>
+            <!-- Your PHP in your HTML can use variables -->
             <?= $greeting ?>
         </h1>
     </header>

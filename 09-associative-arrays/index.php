@@ -1,6 +1,6 @@
 <?php
 
-// Array with key value pairs
+// An associative array has key value pairs
 $person = [
     'age' => 20,
     'hairColor' => 'orange',
@@ -8,6 +8,7 @@ $person = [
 ];
 
 // Adding an item to the array
+// Key = Value
 $person['name'] = 'Joe';
 
 var_dump($person);

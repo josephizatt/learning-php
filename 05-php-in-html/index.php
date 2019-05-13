@@ -16,10 +16,12 @@
 <body>
     <header>
         <h1>
+            <!-- Put some PHP in a HTML file -->
             <?php 
                 $name = 'John';
                 
                 echo $name
+                // Make sure to end the PHP
             ?>
         </h1>
     </header>

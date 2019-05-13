@@ -21,12 +21,17 @@
         <li>
 
             <strong>Completed: </strong>
-
+            <!-- Conditional operator
+            Does task['completed'] return true?
+            If yes, return 'Finished',
+            If not, return 'Incomplete'
+             -->
             <!-- <?=$task['completed'] ? 'Finished' : 'Incomplete';?> -->
 
 
             <?php
-
+                // The ! means not
+                // If task 'not' completed, do this
                 if (! $task['completed']) {
 
                     echo 'Incomplete';
@@ -38,7 +43,8 @@
 
 
 
-
+            <!-- Conditional statement to check if task is completed
+            If true do this, else do this  -->
             <?php if($task['completed']) : ?>
             
                 <span class="icon">&#9989</span>

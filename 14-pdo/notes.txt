@@ -1,0 +1,12 @@
+Setup MySQL on your computer and ensure details match what's in functions.php
+
+mysql:host=127.0.0.1;dbname=mytodo', 'root', '[]'
+
+i.e. create database called mytodo
+password set to []
+user is root by default
+use the todos table or create your own with the following fields:
+
+id int auto_increment
+description text
+completed boolean
